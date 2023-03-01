@@ -61,9 +61,7 @@ var myfunc = function () {
         console.log(thumbnail)
       }
       
-    }).catch(function (error) {
-      alert("一部正しく検索ができなかった可能性があります。ワードを一部変更したのち再度検索してください。");
-    });
+    })
 }
 
 
