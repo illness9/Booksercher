@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BookSearcher</title>
+        <link rel="stylesheet" href="style.css" class="">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+        <style>@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');</style>
+        <script src="https://kit.fontawesome.com/292aafbb1b.js" crossorigin="anonymous"></script>
+
+        
+    </head>
+<body>
+    <nav>
+        <div class="nav-logo">
+            <i class="fa-solid fa-book"></i>
+        </div>
+        <div class="nav-left">
+            <a href="#content">トップへ戻る</a>
+        </div>
+        
+    </nav>
+<div id="content">
+    <div class="content-background">
+    <div class="content-text">
+        <h1>Bock Searcher</h1>
+        <p>タイトルを入力してください。</p>
+        <br>
+        <p>(一部内容が未記載の場合は"undefined"と表示されます。詳細はリンク先にてご確認ください)</p>
+        <form name="inputform" onsubmit="return false">
+            <input type="text" id="searchfield" name="q" value="有機化学" tabindex="0">
+            <input type="button" value="検索" onclick="myfunc();">
+        </form>
+        </div>
+    </div>
+</div>   
+</div>
+
+<div id="items">
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.6.2.min.js" integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
+    <script src="test.js"></script>
+</body>
+</html>
